@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * Description: print value of n satus; zero, positve or negative
+ * Description: print value of n satus; zero, positive or negative
  *
  * Return: Always 0 (Success)
 */
