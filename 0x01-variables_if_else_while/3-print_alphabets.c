@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * maim - Entry point
+ * main - Entry point
  *
  * Description: print alphabet in lowercase then in uppercase
  *
