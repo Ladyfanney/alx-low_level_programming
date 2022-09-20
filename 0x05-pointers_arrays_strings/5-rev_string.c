@@ -1,7 +1,7 @@
 /**
- * rev_string - this reverses a string
+ * rev_string - this is a reverse string
  *
- * @s: string parameter input 
+ * @s: string parameter input
  *
  * Return: Nothing
 */
@@ -11,8 +11,8 @@ void rev_string(char *s)
 	int l, i;
 	char ch;
 
-	/*find string length without null char*/
-	for (l = 0; s[l] != '0\'; ++l)
+	/*find string lenth without null char*/
+	for (l = 0; s[l] != '\0'; ++l)
 		;
 
 	/*swap the string by looping to half the string*/
