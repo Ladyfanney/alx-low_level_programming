@@ -3,7 +3,8 @@
 /**
  * _puts_recursion - this rints a string, then a new line
  * @s: -string to be printed
-*/
+ */
+
 void _puts_recursion(char *s)
 {
 	if (*s)
