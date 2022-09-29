@@ -6,6 +6,7 @@
  * @n: number to calculate the natural square root
  *
  * Return: the natural square root
+ *
  */
 int _sqrt_recursion(int n)
 {
