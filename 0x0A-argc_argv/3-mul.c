@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /*
- * main - this prints multplication of two numbers
+ * main - this prints multiplication of two numbers
  * @argc: the number of arguments
  * @argv: the array of arguments
- * Return - 0
+ * Return - returns 0
  */
 
 int main(int argc, char *argv[])
