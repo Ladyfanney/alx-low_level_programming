@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - this prints multiplication of two numbers
  * @argc: the number of arguments
  * @argv: the array of arguments
- * Return - returns 0
+ * Return: returns 0
  */
 
 int main(int argc, char *argv[])
