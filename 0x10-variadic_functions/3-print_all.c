@@ -80,7 +80,7 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	int i = 0, j = 0;
-	char *seperator = "";
+	char *separator = "";
 	printer_t funcs[] = {
 		{"c", print_char},
 		{"i", print_int},
@@ -99,9 +99,9 @@ void print_all(const char * const format, ...)
 
 		if (j < 4)
 		{
-			printf("%s", seperator);
+			printf("%s", separator);
 			funcs[j].print(args);
-			seperator = ", ";
+			separator = ", ";
 		}
 
 		i++;
