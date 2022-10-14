@@ -26,7 +26,7 @@ void print_char(va_list arg)
  * @arg: A list of arguments pointing to
  * the integer to be printed
  */
-void print(va_list arg)
+void print_int(va_list arg)
 {
 	int num;
 
