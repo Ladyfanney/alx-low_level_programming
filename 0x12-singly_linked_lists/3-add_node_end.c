@@ -44,12 +44,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		 * we iterate pointer next addr if its not NULL our temp addr
 		 * points to the next addr or the next node
 		 */
-
-	       while (temp->next != NULL)
-		       	temp = temp->next;
-	       temp->next = new_node;
+		while (temp->next != NULL)
+			temp = temp->next;
+		temp->next = new_node;
 	}
 
-	return (*head)
+	return (*head);
 }
-
