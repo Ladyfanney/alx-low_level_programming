@@ -34,6 +34,8 @@ list_t *add_node(list_t **head, const char *str)
 	 *  of the list
 	 */
 	if (*head == NULL)
+		new_node->next = NULL;
+	else
 		new_node->next = *head;
 
 	new_node->str = strdup(str);
